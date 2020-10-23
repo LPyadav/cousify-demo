@@ -1,0 +1,138 @@
+li a:hover,a{
+	text-decoration: none;
+}
+body
+{
+	box-sizing: border-box;
+	font-size: 16px;
+}
+.nav1 {
+    background-color: #000;
+}
+
+.navbar {
+    padding: 0px;
+}
+.navbar-nav li{
+    z-index: 1;
+}
+.navbar-nav li a{
+    font-size: 17px;
+    padding: 15px 60px !important;
+}
+.navbar-nav li a:hover{
+    border-right: 3px solid #ff4f81;
+    border-left: 3px solid #ff4f81;
+    transition: 0.5s all;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #000;
+}
+/*------------------Services------------*/
+#services
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(services.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+section{
+    margin-bottom: 100px;
+}
+.services
+{
+    margin-top: 40px;
+}
+.text-center{
+    min-height: 200px;
+}
+#services h4
+{
+    color: #ccc;
+    margin: 15px;
+}
+.img1{
+    height: 150px;
+    overflow: hidden;
+}
+.div1,.div2{
+    display: inline-block;
+    float: left;
+}
+.div1 p,.div2 p{
+    display: inline;
+}
+.services .col-md-3:hover{
+    background: #007bff;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.more-bttna{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #ff4f81;
+    letter-spacing: 2px;
+    padding: 10px 22px;
+    border: 2px solid #ff4f81;
+    bottom: 0;
+}
+.more-bttna:hover{
+    color: #000;
+    background: #fff;
+    border-radius: 20px;
+}
+.more-bttn{
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 22px;
+    border: 2px solid black;
+    bottom: 0;
+}
+.more-bttn:hover{
+    color: #000;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.button-grid, .border{
+    border: 2px solid black;
+}
+
+.heading{
+    text-align: center;
+    color: #ff4f81;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.exam{
+    min-height: 50px;
+    text-align: center;
+    margin-top: 17px;
+}
+.btn{
+    margin: 10px;
+}
+.test{
+    width: 200px;
+    height: 100px;
+}
+.about-us a{
+margin-left: 16px;
+}
+.form-sm {
+    margin-bottom:25px;
+}
+ div .div2{
+     margin-left: 70px;
+ }
